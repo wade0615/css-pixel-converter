@@ -1,9 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'athens',
+    title: 'F2E 螢幕解析度轉換器',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'zh-TW'
     },
     meta: [
       { charset: 'utf-8' },
@@ -19,6 +19,12 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
+  // Global SCSS
+  styleResources: {
+    sass: [
+      // path
+      ]
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -30,7 +36,8 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/tailwindcss'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -46,5 +53,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    extractCSS: true
   }
 }
