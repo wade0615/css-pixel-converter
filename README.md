@@ -1,4 +1,33 @@
-# athens
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="static/favicon.ico" alt="Logo" width="80" height="80">
+  </a>
+
+<h3 align="center">F2E 螢幕解析度轉換器<br>F2E CSS pixel converter</h3>
+
+  <p align="center">
+    簡易的 Device pixel 轉換 CSS pixel 的小工具，方便前端工程師使用。
+    <br />
+    <br />
+    <br />
+    <a href="https://css-pixel-converter.herokuapp.com/">View Demo</a>
+    ·
+    <a href="https://github.com/wade0615/css-pixel-converter/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/wade0615/css-pixel-converter/issues">Request Feature</a>
+  </p>
+</p>
+
+# CSS pixel converter
 
 ## Build Setup
 
@@ -67,34 +96,3 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
-
-## 分類
-
-### assets
-圖片，css 等“資源檔”，build 的時候會稍加壓縮
-
-### components
-阿就...vue components 啊
-
-### layouts
-排版方式，可以說是網站的架構組成
-
-### pages
-產品網站 的每一個分頁，例如 home.vue, about.vue, products.vue 等等
-* 0.0 index.vue
-* 1.0 origin.vue
-* 2.0 space.vue
-* 3.0 dishes.vue
-* 4.0 products.vue
-* 5.0 news.vue
-* 6.0 blog.vue
-* 7.0 clothes.vue
-
-### plugins
-額外載入的外掛組建與套件
-
-### static
-靜態檔，不想被壓縮的東西
-
-### middleware
-router轉換前若要經過任何驗證檢查、資料確認，在這邊檢查
