@@ -1,7 +1,7 @@
 <template>
   <!-- <Tutorial /> -->
   <div class="w-screen h-screen flex flex-wrap justify-center items-center">
-    <h1 class="hidden">F2E 螢幕解析度轉換器</h1>
+    <h1 class="hidden">F2E 螢幕解析度轉換器<span>CSS pixel converter</span></h1>
     <section class="w-3/4 sm:w-1/2">
       <h2>螢幕高度解析度</h2>
       <b-form-input class="mb-3" type="number"
