@@ -96,3 +96,17 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+[contributors-shield]: https://img.shields.io/github/contributors/wade0615/css-pixel-converter.svg?style=for-the-badge
+[contributors-url]: https://github.com/wade0615/css-pixel-converter/pulse
+[forks-shield]: https://img.shields.io/github/forks/wade0615/css-pixel-converter.svg?style=for-the-badge
+[forks-url]: https://github.com/wade0615/css-pixel-converter/network/members
+[stars-shield]: https://img.shields.io/github/stars/wade0615/css-pixel-converter.svg?style=for-the-badge
+[stars-url]: https://github.com/wade0615/css-pixel-converter/stargazers
+[issues-shield]: https://img.shields.io/github/issues/wade0615/css-pixel-converter.svg?style=for-the-badge
+[issues-url]: https://github.com/wade0615/css-pixel-converter/issues
+[license-shield]: https://img.shields.io/github/license/wade0615/css-pixel-converter.svg?style=for-the-badge
+[license-url]: https://github.com/wade0615/css-pixel-converter/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/wade0615
+[product-screenshot]: images/screenshot.png
