@@ -53,6 +53,14 @@ export default {
       let pixelDensity = Math.round(ppi/160);
       return pixelDensity;
     },
+    // 測試非同步 function
+    threeSecondsToGetApple(x) {
+      return new Promise(resolve => {
+        setTimeout(() => {
+          resolve(x);
+        }, 3000);
+      });
+    }
   }
 }
 </script>

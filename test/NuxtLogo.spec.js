@@ -17,4 +17,15 @@ describe('index page', () => {
     expect(index.methods.getPixelDensity(320)).toBe(2);
     expect(index.methods.getPixelDensity(480)).toBe(3);
   })
+  test('threeSecondsToGetApple()', () => {
+    // expect(index.methods.threeSecondsToGetApple('apple')).toBe('apple');
+    return index.methods.threeSecondsToGetApple('apple').then(data => {
+      expect(data).toBe('apple');
+    });
+  })
+  test('threeSecondsToGetApple()', () => {
+    return index.methods.threeSecondsToGetApple('apple apple').then(data => {
+      expect(data).toBe('apple apple');
+    });
+  })
 });
