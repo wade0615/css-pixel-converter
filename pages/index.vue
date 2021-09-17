@@ -60,7 +60,21 @@ export default {
           resolve(x);
         }, 3000);
       });
-    }
+    },
+    twoSecondsToGetNum(x) {
+      return new Promise(resolve => {
+        setTimeout(() => {
+          resolve(x);
+        }, 2000);
+      });
+    },
+    async numFruit(x) {
+      const a = await this.twoSecondsToGetNum(3);
+      return `${a}-${x}`;
+    },
+  },
+  mounted(){
+    console.log(this.numFruit('banana'));
   }
 }
 </script>

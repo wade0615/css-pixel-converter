@@ -28,4 +28,12 @@ describe('index page', () => {
       expect(data).toBe('apple apple');
     });
   })
+  test('numFruit() - 1', async () => {
+    // await expect(index.methods.numFruit('banana')).toBe('3-banana');
+    await expect(index.methods.numFruit('banana')).resolves.toBe('3-banana');
+  });
+  test('numFruit() - 2', async () => {
+    const data = await index.methods.numFruit('orange');
+    expect(data).toBe('3-orange');
+  });
 });
